@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>CFBundleURLTypes</key>
+    <array>
+        <dict/>
+    </array>
+    
+    <!-- Camera Permission -->
+    <key>NSCameraUsageDescription</key>
+    <string>This app requires camera access for real-time object detection.</string>
+
+    <!-- Microphone Permission (AVFoundation sometimes requires this) -->
+    <key>NSMicrophoneUsageDescription</key>
+    <string>This app processes images using CoreML and may require microphone access.</string>
+</dict>
+</plist>
